@@ -8,16 +8,10 @@ public class Pokemon {
     private int guc;
     private int can;
 
-    public Pokemon() {
-        this.id = id;
-        this.ad = ad;
-        this.tur = tur;
-        this.seviye = seviye;
-        this.guc = guc;
-        this.can = can;
-    }
+
 
     public Pokemon(int id, String ad) {
+
         this.id = id;
         this.ad = ad;
     }

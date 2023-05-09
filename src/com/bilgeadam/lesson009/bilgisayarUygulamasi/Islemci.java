@@ -1,6 +1,6 @@
 package com.bilgeadam.lesson009.bilgisayarUygulamasi;
 
-public class Islemci {
+public class Islemci extends DahiliDonanim {
     private int cekirdekSayisi;
     private int hiz;
     private String nesil;
@@ -33,5 +33,14 @@ public class Islemci {
 
     public void setNesil(String nesil) {
         this.nesil = nesil;
+    }
+
+    @Override
+    public String toString() {
+        return "Islemci{" +
+                "cekirdekSayisi=" + cekirdekSayisi +
+                ", hiz=" + hiz +
+                ", nesil='" + nesil + '\'' +
+                '}';
     }
 }
